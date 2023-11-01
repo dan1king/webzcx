@@ -50,3 +50,21 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 color:#444444;
 line-height: 1.9em;
 }
+
+.guarantee {
+  background-image: url(../16/lounge/images/background.gif);
+}
+.guarantee 
+  {
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.guarantee {
+  padding: 25px;
+  padding-left: 80px;
+}
+
+.guarantee {
+  margin-right: 250px;
+}
