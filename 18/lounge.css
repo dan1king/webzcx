@@ -70,9 +70,8 @@ line-height: 1.9em;
 }
 
 .elixirs {
-	border-width: thin;
-	border-style: solid;
-	border-color: #007e7e;
+	
+  border: thin solid #007e7e
 }
 
 .elixirs {
@@ -80,15 +79,62 @@ line-height: 1.9em;
 }
 
 .elixirs {
-	padding-right:   20px;
-	padding-bottom:  20px;
-	padding-left:    20px;
-	margin-left:     20px;
+	
+  padding: 0px 20px;
 }
 
 .elixirs {
 	background-image:    url(images/cocktail.gif);
 	background-repeat:   repeat-x;
-
+  background: white url(../17/lounge/images/cocktail.gif)repeat-x;
 	text-align:          center;  /* 文本剧中对齐 */
+}
+
+h1, h2 {
+  color: #007e7e;
+}
+
+/* 直接修改 h2 是错误的做法 */
+.elixirs h2 {
+  color: black;
+}
+
+div>h2 {
+  color: black;
+}
+
+.cd {
+	font-style: italic;
+}
+
+.artist {
+	font-weight: bold;
+}
+
+.elixirs a:link {
+  color: #007e7e;
+}
+
+.elixirs a:visited {
+  color: #333333;
+}
+
+.elixirs a:hover {
+  background: #f88396;
+  color: #0d5353;
+}
+
+/* 未访问状态 */
+a:link {
+  color: green;
+}
+
+/* 已访问状态 */
+a:visited {
+  color: red;
+}
+
+/* 悬停状态 */
+a:hover {
+  color: yellow;
 }

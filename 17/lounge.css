@@ -92,3 +92,16 @@ line-height: 1.9em;
 
 	text-align:          center;  /* 文本剧中对齐 */
 }
+
+h1, h2 {
+  color: #007e7e;
+}
+
+/* 直接修改 h2 是错误的做法 */
+.elixirs h2 {
+  color: black;
+}
+
+div>h2 {
+  color: black;
+}
